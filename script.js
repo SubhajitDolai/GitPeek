@@ -73,6 +73,7 @@ async function handleSearch() {
     
     const userData = await getGithubUserData(username.value);
     displayUserData(userData);
+    searchInput.value = "";
 }
 
 const searchButton = document.querySelector('#searchBtn');
