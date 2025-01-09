@@ -4,6 +4,13 @@
 
 ---
 
+## Live Demo
+
+Check out the live version of the project here:  
+[**GitPeek**](https://subhajitdolai.github.io/GitPeek/)
+
+---
+
 ## Features
 
 - Fetches and displays GitHub profile details, including:
