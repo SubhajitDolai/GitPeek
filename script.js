@@ -54,9 +54,9 @@ function displayUserData(userData) {
 
     // check if blog is empty
     if (userData.blog === '') {
-        blog.innerText = 'Blog: Empty';
+        blog.innerText = 'Website: Empty';
     } else {
-        blog.innerHTML = `Blog: <a href="${userData.blog}" target="_blank">${userData.blog}</a>`;
+        blog.innerHTML = `Website: <a href="${userData.blog}" target="_blank">${userData.blog}</a>`;
     }
 }
 
