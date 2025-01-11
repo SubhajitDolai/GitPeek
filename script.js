@@ -236,6 +236,8 @@ async function handleSearch() {
 
         // check for api rate limit
         if (message.includes(limitHit)) {
+            searchInput.disabled = false;
+            searchInput.focus();
             document.getElementById('error').textContent = `API rate limit exceeded! Reset at ${limitResetAt}`;
             document.getElementById('error').style.display = 'block';
             searchInput.value = "";
