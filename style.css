@@ -95,14 +95,22 @@ button:hover {
     border: 1px solid #30363d;
 }
 
+.profile-info {
+    overflow: hidden;
+}
+
 .profile-info h2 {
     color: #c9d1d9;
     margin-bottom: 0.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .profile-info p {
     color: #8b949e;
     margin-bottom: 0.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .stats {
