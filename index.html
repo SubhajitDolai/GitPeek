@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="container">
+        <!-- search-box -->
         <div class="search-box">
             <h1>GitHub Profile Viewer</h1>
             <div class="input-group">
@@ -17,6 +18,7 @@
             <div class="error-message" id="error">User not found!</div>
         </div>
 
+        <!-- profile-section -->
         <div class="profile-container" id="profile">
             <div class="profile-header">
                 <img class="avatar" id="avatar" src="" alt="Profile avatar">
@@ -41,6 +43,14 @@
                     <h3>Following</h3>
                     <p id="following">0</p>
                 </div>
+            </div>
+        </div>
+
+        <!-- repos-section -->
+        <div class="repos-section" id="repos-section">
+            <h2 class="repos-title">Repositories</h2>
+            <div class="repos-grid" id="repos-grid">
+                <!-- JS will create repository cards here -->
             </div>
         </div>
     </div>
