@@ -83,3 +83,5 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 ## Acknowledgements
 
 - GitHub API Documentation: [GitHub REST API](https://docs.github.com/en/rest)
+
+---
